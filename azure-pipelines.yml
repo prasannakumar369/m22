@@ -13,6 +13,4 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: |
-      javac SumOfNumbers1.java
-      java SumOfNumbers1
+    script: 'python sum.py'
